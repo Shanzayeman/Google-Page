@@ -1,0 +1,315 @@
+body {
+    margin: 0px;
+}
+
+#one {
+    border: 1px solid purple;
+    width: 20px;
+    height: 20px;
+    background-color: purple;
+    color: rgb(247, 242, 242);
+    font-size: large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border-radius: 50%;
+    padding: 2px;
+    z-index: -1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    float: right;
+}
+
+li {
+    padding: 10px;
+    background-color: white;
+    color: rgb(114, 112, 112);
+    display: block;
+    border: 1px solid white;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(99, 96, 96);
+}
+
+.same {
+    margin-top: 22px;
+}
+
+.tame {
+    margin-top: 22px;
+}
+
+.tame:hover {
+    text-decoration: underline;
+}
+
+#main {
+    position: relative;
+    display: inline-block;
+}
+
+#main .second {
+    visibility: hidden;
+    position: absolute;
+    border: 1px solid rgb(61, 60, 60);
+    width: 145px;
+    height: 45px;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    right: 0px;
+    font-size: small;
+
+    border-radius: 3px;
+}
+
+#main:hover .second {
+    visibility: visible;
+}
+
+#DIV1 {
+    position: relative;
+    display: inline-block;
+}
+
+#DIV1 .span1 {
+    visibility: hidden;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    font-size: small;
+    background-color: rgb(56, 55, 55);
+    border: 1px solid rgb(56, 55, 55);
+    color: white;
+    top: 25px;
+    right: 1px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#DIV1:hover .span1 {
+    visibility: visible;
+}
+
+#DIV2 {
+    position: relative;
+    display: inline-block;
+}
+
+#DIV2 .span2 {
+    visibility: hidden;
+    position: absolute;
+    width: 80px;
+    height: 17px;
+    font-size: small;
+    background-color: rgb(56, 55, 55);
+    border: 1px solid rgb(56, 55, 55);
+    color: white;
+    top: 25px;
+    right: 1px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#DIV2:hover .span2 {
+    visibility: visible;
+}
+
+img {
+    margin-top: 160px;
+    margin-left: 450px;
+}
+
+#inp {
+    width: 600px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(185, 181, 181);
+    box-shadow: 3px rgb(185, 181, 181);
+    margin-top: 5px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+#run {
+    position: absolute;
+    left: 360px;
+    color: rgb(185, 181, 181);
+    top: 15px;
+}
+
+#love {
+    position: relative;
+    right: 70px;
+    color: rgb(22, 152, 196);
+}
+
+#me {
+    position: relative;
+    right: 55px;
+    color: rgb(29, 158, 201);
+}
+
+.same:hover {
+    border: 1px solid rgb(196, 189, 189);
+    width: 20px;
+    height: 20px;
+    background-color: rgb(196, 189, 189);
+    border-radius: 50%;
+    text-align: center;
+}
+
+#git {
+    position: relative;
+    border: 1px solid white;
+    top: 30px;
+    left: 440px;
+    width: 100px;
+    height: 100px;
+}
+
+#hub {
+    position: absolute;
+    color: black;
+    top: 20px;
+    left: 39px;
+}
+
+#tat {
+    text-decoration: none;
+    color: black;
+}
+
+#para {
+    position: absolute;
+    top: 45px;
+    left: 29px;
+}
+
+#hehe {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(206, 205, 203);
+    background-color: rgb(201, 199, 197);
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+}
+
+#you {
+    position: relative;
+    border: 1px solid white;
+    top: 30px;
+    left: 590px;
+    width: 100px;
+    height: 100px;
+}
+
+#tube {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(206, 205, 203);
+    background-color: rgb(201, 199, 197);
+    position: absolute;
+    left: 24px;
+    bottom: 140px;
+}
+
+#tad {
+    text-decoration: none;
+    color: black;
+}
+
+#u {
+    position: absolute;
+    color: rgb(214, 11, 11);
+    left: 30px;
+    bottom: 165px;
+}
+
+#graph {
+    position: absolute;
+    left: 10px;
+    bottom: 105px;
+}
+
+#fun {
+    position: relative;
+    border: 1px solid white;
+    top: 30px;
+    left: 730px;
+    width: 100px;
+    height: 100px;
+}
+
+#ct {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(206, 205, 203);
+    background-color: rgb(201, 199, 197);
+    position: absolute;
+    left: 24px;
+    bottom: 240px;
+}
+
+#tion {
+    text-decoration: none;
+    color: black;
+}
+
+#y {
+    position: absolute;
+    color: rgb(228, 85, 18);
+    left: 32px;
+    bottom: 265px;
+}
+
+#ph {
+    position: absolute;
+    left: 10px;
+    bottom: 205px;
+}
+#wha{
+    position: relative;
+    border: 1px solid white;
+    top: 30px;
+    left: 450px;
+    width: 100px;
+    height: 100px;  
+}
+#ts{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(206, 205, 203);
+    background-color: rgb(201, 199, 197);
+    position: absolute;
+    left: 24px;
+    bottom: 240px;
+}
+#app{
+    text-decoration: none;
+    color: black;
+}
+#apps{
+    position: absolute;
+    color: rgb(228, 85, 18);
+    left: 32px;
+    bottom: 265px;
+}
+#hp{
+    position: absolute;
+    left: 10px;
+    bottom: 205px;
+}
